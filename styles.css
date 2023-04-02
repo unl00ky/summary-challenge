@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+:root {
+    --Light-slate-blue: hsl(252, 100%, 67%);
+    --Light-royal-blue: hsl(241, 81%, 54%);
+    --Pale-blue: hsl(221, 100%, 96%, 0.7);
+    --Violet-blue: hsla(256, 72%, 46%, 1);
+    --Persian-blue: hsla(241, 72%, 46%, 0);
+    --Light-lavander: hsl(241, 100%, 89%, 0.5);
+    --Dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+body {
+    min-height: 100vh;
+    font-size: 18px;
+    /* background-color: rgb(19, 19, 19); */
+    color: white;
+}
+main {
+    margin: auto;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    main {
+        display: flex;
+    }
+}
+
+/*  */
+.first-section {
+    background: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
+    text-align: center;
+    padding: 0 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-radius: 0 0 30px 30px;
+    position: relative;
+    z-index: 100;
+}
+.first-section p {
+    color: var(--Pale-blue);
+}
+.circle {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(var(--Violet-blue), var(--Persian-blue));
+}
+.circle h1 {
+    font-weight: 800;
+    font-size: 3.7rem;
+}
+.circle p {
+    color: var(--Light-lavander);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.first-section h2 {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.fun-fact {
+    font-size: 1rem;
+    font-weight: 500;
+}
+/*  */
+@media screen and (min-width: 800px) {
+
+    .first-section {
+        max-width: 250px;
+        border-radius: 30px;
+        padding-top: 30px;
+    }
+    .result {
+        font-size: 1.3rem;
+    }
+    .circle {
+        width: 200px;
+        height: 200px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .circle h1 {
+        font-size: 4rem;
+    }
+    .first-section h2 {
+        font-size: 2rem;
+    }
+    .fun-fact {
+        font-size: 1.1rem;
+    }
+}
+/*  */
+
+.second-section {
+    background-color: white;
+    color: black;
+    padding: 0 25px;
+    position: relative;
+    padding-top: 30px;
+    top: -30px;
+}
+.summ {
+    color: var(--Dark-gray-blue);
+    font-weight: 800;
+    font-size: 1.1rem;
+    padding: 20px 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--Pale-blue);
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid rgb(211, 211, 211, 0.1);
+}
+.left-stuff {
+    display: flex;
+    align-items: center;
+}
+.left-stuff h2{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.right-stuff {
+    display: flex;
+    align-items: center;
+}
+.right-stuff h3 {
+    font-size: 15px;
+    font-weight: 800;
+    color: var(--Dark-gray-blue);
+}
+.right-stuff p {
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 800;
+    color: rgb(128, 128, 128, 0.5);
+}
+/* 350px 350px  */
+
+@media screen and (min-width: 800px) {
+    .second-section {
+        width: 290px;
+        border-radius: 0 30px 30px 0;
+        padding: 0 30px;
+        padding-top: 30px;
+        padding-left: 80px;
+        position: relative;
+        top: 0;
+        left: -50px;
+        box-shadow: 50px 50px 100px rgb(0, 0, 0, 0.2);
+    }
+    .summ {
+        font-size: 1.3rem;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+}
+/*  */
+.second-section button {
+    background: var(--Dark-gray-blue);
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 15px 0;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 800px){
+    .second-section button {
+        margin-top: 30px;
+    }
+    .second-section button:hover {
+        background: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
+        cursor: pointer;
+    }
+}
+
