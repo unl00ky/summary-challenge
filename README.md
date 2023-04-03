@@ -19,8 +19,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [URL](https://www.frontendmentor.io/solutions/first-time-using-css-variables-resultsummarycomponentmain-bp-i1oR2af)
+- Live Site URL: [Github pages](https://unl00ky.github.io/summary-challenge/)
 
 ## My process
 
@@ -34,4 +34,4 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ## Author
 
 - Github - [unl00ky](https://github.com/unl00ky)
-- Frontend Mentor - [@unl00ky](hhttps://www.frontendmentor.io/profile/unl00ky)
+- Frontend Mentor - [@unl00ky](https://www.frontendmentor.io/profile/unl00ky)
